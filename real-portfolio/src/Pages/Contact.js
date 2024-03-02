@@ -1,20 +1,20 @@
 import React from 'react';
 import Nav from '../Components/topNav'
 
-const Projects = () => {
+const Contact = () => {
     return(
         <>
         <div>
             <Nav/>
         </div>
         <div>
-         
+          
         </div>
         </>
     )
 }
 
-export default Projects
+export default Contact
 
 const styles={
 
