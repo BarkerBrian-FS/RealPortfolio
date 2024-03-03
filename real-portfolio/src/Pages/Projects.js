@@ -1,5 +1,5 @@
 import React from 'react';
-import Nav from '../Components/topNav'
+import Nav from '../Components/topNav';
 
 const Projects = () => {
     return(
