@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import { Routes , Route } from 'react-router-dom'
-import Dashboard from "./Pages/Experience";
 import About from "./Pages/About";
 import Contact from "./Pages/Contact";
 import Projects from "./Pages/Projects";
+import Experience from "./Pages/Experience";
 import './App.css';
 
 function App() {
@@ -13,7 +13,7 @@ function App() {
         <Routes>
           <Route path="/" element={<About/>} />
           <Route path="/contact" element={<Contact/>} />
-          <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/experience" element={<Experience/>} />
           <Route path="/projects" element={<Projects/>} />
         </Routes>
       </section>
