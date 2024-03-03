@@ -25,7 +25,7 @@ export default Nav
 const styles= {
     myHeader:{
         padding: '1%',
-        backgroundColor: '#003459',
+        backgroundColor: '#1b263b',
         color: '#F2AF29',
         display: 'flex',
         flexDirection: 'row',
@@ -38,7 +38,7 @@ const styles= {
         textShadow: '2px 2px 4px #000000',
         marginRight: '10%',
         marginTop: '-.5%',
-        color: 'white'
+        color: '#e0e1dd'
         
     },
     nav:{
@@ -54,6 +54,6 @@ const styles= {
         textShadow: '2px 2px 4px #000000',
         margin: ".5rem",
         textDecoration: "none",
-        color: 'white'
+        color: '#e0e1dd'
     }
 };
