@@ -51,7 +51,6 @@ const Experience = () => {
 export default Experience
 
 const styles={
-
     experience:{
         display: 'flex',
         flexDirection: 'column',
@@ -68,7 +67,8 @@ const styles={
     htmlBlock:{
         display: 'flex',
         flexDirection: 'row',
-        marginBottom: '30px'
+        marginBottom: '30px',
+        fontSize: '1.5rem'
     },
     css:{
         height: '120px',
@@ -79,7 +79,8 @@ const styles={
     cssBlock:{
         display: 'flex',
         flexDirection: 'row',
-        marginBottom: '30px'
+        marginBottom: '30px',
+        fontSize: '1.5rem'
     },
     js:{
         height: '120px',
@@ -90,12 +91,14 @@ const styles={
     jsBlock:{
         display: 'flex',
         flexDirection: 'row',
-        marginBottom: '30px'
+        marginBottom: '30px',
+        fontSize: '1.5rem'
     },
     nodeBlock:{
         display: 'flex',
         flexDirection: 'row',
-        marginBottom: '30px'
+        marginBottom: '30px',
+        fontSize: '1.5rem'
     },
     node:{
         height: '120px',
@@ -106,7 +109,8 @@ const styles={
     reactBlock:{
         display: 'flex',
         flexDirection: 'row',
-        marginBottom: '30px'
+        marginBottom: '30px',
+        fontSize: '1.5rem'
     },
     react:{
         height: '120px',
@@ -117,7 +121,8 @@ const styles={
     mongoBlock:{
         display: 'flex',
         flexDirection: 'row',
-        marginBottom: '30px'
+        marginBottom: '30px',
+        fontSize: '1.5rem'
     },
     mongo:{
         height: '120px',
@@ -128,7 +133,8 @@ const styles={
     figmaBlock:{
         display: 'flex',
         flexDirection: 'row',
-        marginBottom: '30px'
+        marginBottom: '30px',
+        fontSize: '1.5rem'
     },
     figma:{
         height: '120px',
