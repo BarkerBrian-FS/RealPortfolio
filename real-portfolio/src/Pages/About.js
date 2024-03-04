@@ -9,9 +9,7 @@ const About = () => {
         <div style={styles.Nav}>
             <Nav/>
         </div>
-        <div style=
-            {{backgroundImage: `url(${spacebg})`}}>
-       
+        <div class='bg' style= {{backgroundImage: `url(${spacebg})`}}>
         <div style={styles.about}>
             <div style={styles.intro}>
                 <h1 style={styles.name} class='name'>Brian Barker</h1>
@@ -63,7 +61,8 @@ const styles={
     },
     Nav:{
         zIndex: 98
-    }
+    },
+    
    
  
 }
