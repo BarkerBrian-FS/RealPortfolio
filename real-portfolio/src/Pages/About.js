@@ -6,7 +6,7 @@ import spacebg from '../images/spacebg.jpg'
 const About = () => {
     return(
         <>
-        <div>
+        <div style={styles.Nav}>
             <Nav/>
         </div>
         <div style=
@@ -38,8 +38,9 @@ const styles={
     img:{
         height: '1200px',
         width: 'auto',
-        marginTop: '-30rem',
-        marginRight: '-5rem'
+        marginTop: '3rem',
+        marginRight: '-20rem',
+        zIndex:1
     },
     name:{
         color: 'white',
@@ -57,7 +58,11 @@ const styles={
         fontSize: '1.8rem',
         color:'white',
         marginTop: '-2rem',
-        marginLeft: '20rem'
+        marginLeft: '20rem',
+        marginRight: '10rem'
+    },
+    Nav:{
+        zIndex: 98
     }
    
  
