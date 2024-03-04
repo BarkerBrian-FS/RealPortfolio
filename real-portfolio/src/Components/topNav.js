@@ -25,7 +25,7 @@ export default Nav
 const styles= {
     myHeader:{
         padding: '1%',
-        backgroundColor: '#1b263b',
+        backgroundColor: 'black',
         color: '#F2AF29',
         display: 'flex',
         flexDirection: 'row',
