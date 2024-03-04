@@ -2,6 +2,7 @@ import React from 'react';
 import Nav from '../Components/topNav';
 import me from '../images/AboutBrian.png'
 import spacebg from '../images/spacebg.jpg'
+
 const About = () => {
     return(
         <>
@@ -39,7 +40,24 @@ const styles={
         width: 'auto',
         marginTop: '-30rem',
         marginRight: '-5rem'
-
+    },
+    name:{
+        color: 'white',
+        fontFamily: 'Anta, sans-serif',
+        fontWeight: 'bold',
+        fontStyle: 'normal',
+        fontSize: '4rem',
+        marginLeft: '20rem',
+        marginTop: '6rem'
+    },
+    para:{
+        fontFamily: 'Anta, sans-serif',
+        fontWeight: 500,
+        fontStyle: 'normal',
+        fontSize: '1.8rem',
+        color:'white',
+        marginTop: '-2rem',
+        marginLeft: '20rem'
     }
    
  

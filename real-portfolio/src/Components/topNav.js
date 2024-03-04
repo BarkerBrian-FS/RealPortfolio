@@ -32,10 +32,10 @@ const styles= {
         justifyContent: 'space-between',
     },
     logo:{
-        fontFamily: 'Exo 2, sans-serif',
-        fontSize: '1.6rem',
-        fontWeight:  200,
-        textShadow: '2px 2px 4px #000000',
+        fontFamily: 'Anta, sans-serif',
+        fontWeight: 500,
+        fontStyle: 'normal',
+        fontSize: '1.8rem',
         marginRight: '10%',
         marginTop: '-.5%',
         color: '#e0e1dd'
@@ -48,10 +48,10 @@ const styles= {
         marginRight: '3%',
     },
     link:{
-        fontFamily: 'Exo 2, sans-serif',
-        fontSize: '1.3rem',
-        fontWeight:  'bold',
-        textShadow: '2px 2px 4px #000000',
+        fontFamily: 'Anta, sans-serif',
+        fontWeight: 200,
+        fontStyle: 'normal',
+        fontSize: '1.8rem',
         margin: ".5rem",
         textDecoration: "none",
         color: '#e0e1dd'
