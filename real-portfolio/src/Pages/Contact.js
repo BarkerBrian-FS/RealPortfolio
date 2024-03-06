@@ -36,7 +36,7 @@ const styles={
         width: '120px'
     },
     contactForm:{
-        
+        width: '100%'
     },
     contactBtn:{
         marginLeft: '660px',
