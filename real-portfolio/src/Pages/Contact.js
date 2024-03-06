@@ -36,7 +36,11 @@ const styles={
         width: '120px'
     },
     contactForm:{
-       
+        
     },
+    contactBtn:{
+        marginLeft: '660px',
+        marginTop: '50px'
+    }
 
 }
