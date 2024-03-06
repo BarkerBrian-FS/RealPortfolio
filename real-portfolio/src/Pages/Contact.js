@@ -4,23 +4,30 @@ import Nav from '../Components/topNav';
 import github from '../images/github.png';
 import linkedIn from '../images/linkedin.png';
 import ContactForm from '../Components/contactForm'
+import spaceBg2 from '../images/spaceBg2.jpg'
 
 const Contact = () => {
     return(
-        <>
+    <>
         <div>
             <Nav/>
         </div>
         <div>
+        <div class='spaceBg2' style= {{backgroundImage: `url(${spaceBg2})`}} >
             <div style={styles.contactForm}>
                 <ContactForm/>
             </div>
             <div style={styles.contactBtn}>
-                <Link><img style={styles.github} src={github} alt='github'/></Link>
-                <Link><img style={styles.linkedIn} src={linkedIn} alt='linkedIn'/></Link>
+                <div>
+                    <Link><img style={styles.github} src={github} alt='github'/></Link>
+                </div>
+                <div>
+                    <Link><img style={styles.linkedIn} src={linkedIn} alt='linkedIn'/></Link>
+                </div>
             </div>
         </div>
-        </>
+        </div>
+    </>
     )
 }
 
@@ -28,19 +35,24 @@ export default Contact
 
 const styles={
     github:{
-        height: '120px',
-        width: '120px'
+        height: '105px',
+        width: '105px',
+        marginRight: '10px'
     },
     linkedIn:{
-        height: '120px',
-        width: '120px'
+        height: '105px',
+        width: '105px',
+        marginLeft: '10px'
     },
     contactForm:{
         width: '100%'
     },
     contactBtn:{
-        marginLeft: '660px',
-        marginTop: '50px'
+        display: 'flex',
+        flexDirection: 'row',
+        marginLeft: '705px',
+        marginTop: '40px',
+        justifyContent: 'spaceBetween'
     }
 
 }
