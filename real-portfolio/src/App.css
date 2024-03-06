@@ -1,6 +1,4 @@
 
-
-
 .logo{
   font-family: "Exo 2", sans-serif;
   font-optical-sizing: auto;
@@ -9,5 +7,9 @@
 }
 .bg{
   height: 750px
+}
+.rocketBg{
+  margin-top: -60px;
+  height: 1075px;
 }
 

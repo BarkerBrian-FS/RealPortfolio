@@ -3,6 +3,7 @@ import {Link} from 'react-router-dom';
 import Nav from '../Components/topNav';
 import github from '../images/github.png';
 import linkedIn from '../images/linkedin.png';
+import ContactForm from '../Components/contactForm'
 
 const Contact = () => {
     return(
@@ -11,8 +12,13 @@ const Contact = () => {
             <Nav/>
         </div>
         <div>
-            <Link><img style={styles.github} src={github} alt='github'/></Link>
-            <Link><img style={styles.linkedIn} src={linkedIn} alt='linkedIn'/></Link>
+            <div style={styles.contactForm}>
+                <ContactForm/>
+            </div>
+            <div style={styles.contactBtn}>
+                <Link><img style={styles.github} src={github} alt='github'/></Link>
+                <Link><img style={styles.linkedIn} src={linkedIn} alt='linkedIn'/></Link>
+            </div>
         </div>
         </>
     )
@@ -28,5 +34,9 @@ const styles={
     linkedIn:{
         height: '120px',
         width: '120px'
-    }
+    },
+    contactForm:{
+       
+    },
+
 }
