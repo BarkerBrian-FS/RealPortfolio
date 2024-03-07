@@ -50,7 +50,8 @@ const styles={
     contactBtn:{
         display: 'flex',
         flexDirection: 'row',
-        marginLeft: '705px',
+        marginLeft: '43%',
+        marginRight: 'auto',
         marginTop: '40px',
         justifyContent: 'spaceBetween',
         
