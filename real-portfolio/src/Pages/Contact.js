@@ -19,10 +19,10 @@ const Contact = () => {
             </div>
             <div style={styles.contactBtn}>
                 <div>
-                    <Link><img style={styles.github} src={github} alt='github'/></Link>
+                    <a href='https://github.com/BarkerBrian-FS?tab=repositories'><img  style={styles.github} src={github} alt='github'/></a>
                 </div>
                 <div>
-                    <Link><img style={styles.linkedIn} src={linkedIn} alt='linkedIn'/></Link>
+                    <a href='https://www.linkedin.com/in/brian-barker-498537202/'><img  style={styles.linkedIn} src={linkedIn}  alt='linkedIn'/></a>
                 </div>
             </div>
         </div>
@@ -52,7 +52,8 @@ const styles={
         flexDirection: 'row',
         marginLeft: '705px',
         marginTop: '40px',
-        justifyContent: 'spaceBetween'
+        justifyContent: 'spaceBetween',
+        
     }
 
 }

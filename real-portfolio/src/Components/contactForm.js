@@ -9,8 +9,12 @@ export const ContactForm = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('YOUR_SERVICE_ID', 'YOUR_TEMPLATE_ID', form.current, {
-        publicKey: 'YOUR_PUBLIC_KEY',
+      .sendForm(
+        'service_stmew67', 
+        'template_4h54lr8', 
+        form.current, {
+        publicKey: 
+        'huqTxf4ikvWEbKvV6',
       })
       .then(
         () => {
@@ -23,7 +27,6 @@ export const ContactForm = () => {
   };
 
   return (
-  
       <form ref={form} onSubmit={sendEmail} style={style.form}>
         <div style= {style.name}>
           <label>Name</label>
@@ -41,7 +44,6 @@ export const ContactForm = () => {
         </div>
         <div class='submitBtn'><input type="submit" value="Send" /></div>
       </form>
-
   );
 };
 
@@ -61,7 +63,6 @@ const style = {
     color: 'white'
   },
   input:{
-  
   },
   email:{
     marginTop: '15px',
@@ -71,5 +72,4 @@ const style = {
     marginTop: '15px',
     color: 'white'
   }
-
 }
