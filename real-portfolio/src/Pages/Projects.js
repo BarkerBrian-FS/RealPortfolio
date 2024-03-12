@@ -1,5 +1,7 @@
 import React from 'react';
 import Nav from '../Components/topNav';
+import spaceBgProject from '../images/spaceBgProject.jpg'
+import Video from '../Components/VideoDisplay';
 
 const Projects = () => {
     return(
@@ -7,8 +9,10 @@ const Projects = () => {
         <div>
             <Nav/>
         </div>
-        <div>
-         
+        <div class='spaceBgProject' style= {{backgroundImage: `url(${spaceBgProject})`}} >
+            <div className='video'>
+                <Video/>
+            </div>
         </div>
         </>
     )
@@ -16,6 +20,3 @@ const Projects = () => {
 
 export default Projects
 
-const styles={
-
-}
