@@ -1,7 +1,8 @@
 import React from 'react';
 import Nav from '../Components/topNav';
-import me from '../images/AboutBrian.png'
-import spacebg from '../images/spacebg.jpg'
+import me from '../images/AboutBrian.png';
+import spacebg from '../images/spacebg.jpg';
+import '../Pages/About.css';
 
 const About = () => {
     return(
@@ -9,7 +10,7 @@ const About = () => {
         <div style={styles.Nav}>
             <Nav/>
         </div>
-        <div class='bg' style= {{backgroundImage: `url(${spacebg})`}}>
+        <div class='bg' style={{backgroundImage: `url(${spacebg})`}}>
         <div style={styles.about}>
             <div style={styles.intro}>
                 <h1 style={styles.name} class='name'>Brian Barker</h1>
@@ -24,7 +25,7 @@ const About = () => {
         </div>
         </>
     )
-}
+};
 
 export default About
 
@@ -36,9 +37,8 @@ const styles={
     img:{
         height: '1200px',
         width: 'auto',
-        marginTop: '3rem',
+        marginTop: '6rem',
         marginRight: '-20rem',
-        zIndex:1
     },
     name:{
         color: 'white',
@@ -61,8 +61,5 @@ const styles={
     },
     Nav:{
         zIndex: 98
-    },
-    
-   
- 
-}
+    }
+};

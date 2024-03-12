@@ -37,6 +37,7 @@ const styles= {
         fontStyle: 'normal',
         fontSize: '1.8rem',
         marginRight: '10%',
+        marginLeft: '2.5%',
         marginTop: '-.5%',
         color: '#e0e1dd'
         
@@ -45,7 +46,7 @@ const styles= {
         display: 'flex',
         flexDirection: 'row',
         alignItems: 'center',
-        marginRight: '3%',
+        marginRight: '3%'
     },
     link:{
         fontFamily: 'Anta, sans-serif',
